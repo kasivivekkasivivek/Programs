@@ -2,6 +2,17 @@ package matrix;
 import java.util.*;
 public class smallest_positive_number_missing 
 	{
+	/*
+	 Find the smallest positive number missing from an unsorted array 
+			 Input: arr[] = {2, 3, 7, 6, 8, -1, -10, 15}
+			 Output: 1
+		
+			Input: arr[] = { 2, 3, -7, 6, 8, 1, -10, 15 }
+			Output: 4
+			
+			Input: arr[] = {1, 1, 0, -1, -2}
+			Output: 2
+	 */
 	public static Scanner ss=new Scanner(System.in);
 	//method to print the elements in the array
 	public static void print(int arr[])
@@ -13,36 +24,15 @@ public class smallest_positive_number_missing
 		System.out.print(arr[arr.length-1]);
 		System.out.println();
 	}
-	//move all the positive elements to left and non positive and 0 to right
-	public static void seperate(int arr[])
-	{
-		int left=0;
-		int right=arr.length-1;
-		while(left<=right)
-		{
-			if(arr[left]<=0)
-			{
-				int temp=arr[left];
-				arr[left]=arr[right];
-				arr[right]=temp;
-				right--;
-			}
-			else
-			{
-				left++;
-			}
-		}
-		print(arr);
-	}
-	
+	//solution using binary search
 	public static void finding1(int arr[])
 	{
-		Arrays.parallelSort(arr);
+		Arrays.parallelSort(arr);	//sorting the array
 		int x=arr[arr.length-1];
 		int count=0;
 		for(int i=1;i<=x;i++)
 		{
-			if(Arrays.binarySearch(arr, i)<0)
+			if(Arrays.binarySearch(arr, i)<0) //if smallest starting from 1 is not present in the array the element will be printed
 			{
 				System.out.println(i);
 				count++;
