@@ -2,11 +2,11 @@ package matrix;
 import java.util.*;
 public class Patterns111 {
 	/*
-	    * 
-		* * 
-		* * * 
-		* * * * 
-		* * * * * 
+						* 
+						* * 
+						* * * 
+						* * * * 
+						* * * * * 
 	 */
 	public static void pattern1(int n)
 	{
@@ -20,11 +20,11 @@ public class Patterns111 {
 		}
 	}
 	/*
-	    * 
-	   * * 
-	  * * * 
-	 * * * * 
-	* * * * * 
+						    * 
+						   * * 
+						  * * * 
+						 * * * * 
+						* * * * * 
 	
 	 */
 	public static void pattern2(int n)
@@ -43,12 +43,12 @@ public class Patterns111 {
 		}
 	}
 	/*
-	        *
-		   **
-		  ***
-		 ****
-		*****
-	 
+							    *
+							   **
+							  ***
+							 ****
+							*****
+
 	 */
 	public static void pattern3(int n)
 	{
@@ -67,11 +67,11 @@ public class Patterns111 {
 	}
 // ----------------------------reversing the above--------------------------------
 	/*
-	    * * * * * 
-		* * * * 
-		* * * 
-		* * 
-		* 
+								* * * * * 
+								* * * * 
+								* * * 
+								* * 
+								* 
 	 */
 	public static void pattern4(int n)
 	{
@@ -85,11 +85,11 @@ public class Patterns111 {
 		}	
 	}
 	/*
-		*****
-		 ****
-		  ***
-		   **
-		    *
+								*****
+								 ****
+								  ***
+								   **
+								    *
 	 */
 	public static void pattern5(int n)
 	{
@@ -107,11 +107,11 @@ public class Patterns111 {
 		}
 	}
 	/*
-			* * * * * 
-			 * * * * 
-			  * * * 
-			   * * 
-			    * 
+								* * * * * 
+								 * * * * 
+								  * * * 
+								   * * 
+								    * 
 	 */
 	public static void pattern6(int n)
 	{
@@ -129,7 +129,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-							 	* 
+							    * 
 							   * * 
 							  * * * 
 							 * * * * 
@@ -188,7 +188,7 @@ public class Patterns111 {
 	//better version of pattern2 which will be a perfect triangle 
 	//-------------------------important----|| (2*i)-1 ||---------------------------
 	/* 
-									*
+								    *
 								   ***
 								  *****
 								 *******
@@ -250,7 +250,7 @@ public class Patterns111 {
 		pattern2(n);
 	}
 	/*
-						    *
+						        *
 							**
 							* *
 							*  *
@@ -276,7 +276,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-					        *
+					            *
 						   **
 						  * *
 						 *  *
@@ -306,7 +306,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-						    *****
+						        *****
 							*  *
 							* *
 							**
@@ -332,7 +332,7 @@ public class Patterns111 {
 	}
 	
 	/*
-						    *****
+						        *****
 							 *  * 
 							  * *  
 							   **   
@@ -395,7 +395,7 @@ public class Patterns111 {
 	}
 	//--------------important---------------
 	/*
-						    *********
+						        *********
 							 *     *
 							  *   *
 							   * *
@@ -478,8 +478,8 @@ public class Patterns111 {
 		}
 	}
 	/*
-	   
-						    *
+	     
+						        *
 							**
 							* *
 							*  *
@@ -603,7 +603,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-						        *****
+						            *****
 							   *****
 							  *****
 							 *****
@@ -648,7 +648,7 @@ public class Patterns111 {
 		}
 	}
 						/*
-						        *****
+						            *****
 							   *   *
 							  *   *
 							 *   *
@@ -707,7 +707,7 @@ public class Patterns111 {
 	}
 	//-----------------------important----------------------
 	/*
-						    *        *   ---------->8
+						        *        *   ---------->8
 							**      **   ---------->6
 							***    ***   ---------->4
 							****  ****   ---------->2
@@ -763,14 +763,14 @@ public class Patterns111 {
 		}
 	}
 	/*
-								    *      *
+								        *      *
 									**    **
 									***  ***
 									********
 									********
 									***  ***
 									**    **
-							        *      *
+							                *      *
 	 */
 	public static void pattern25_26(int n)
 	{
@@ -778,7 +778,7 @@ public class Patterns111 {
 		pattern26(n);
 	}
 	 /*
-							    1 
+							        1 
 								1 2 
 								1 2 3 
 								1 2 3 4 
@@ -796,7 +796,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-							    1 
+							        1 
 								2 3 
 								4 5 6 
 								7 8 9 10 
@@ -920,7 +920,7 @@ public class Patterns111 {
 	}
 	//prefer pattern32
 	/*
-						      *  *    *  *
+						          *  *    *  *
 							 *    *  *    *
 							*      **      *
 							*              *
@@ -1056,7 +1056,7 @@ public class Patterns111 {
 	//----------------pascal's Triangle---------------------
 	//------------------important--------------------
 	/*
-										  1
+									      1
 									     1 1
 									    1 2 1
 									   1 3 3 1
@@ -1118,7 +1118,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-								    1 2 3 4 5 
+								        1 2 3 4 5 
 									2 3 4 5 1 
 									3 4 5 1 2 
 									4 5 1 2 3 
@@ -1142,7 +1142,7 @@ public class Patterns111 {
 	}
 	//-----------Important--------------
 	/*
-							    1 
+							        1 
 								2 6 
 								3 7 10 
 								4 8 11 13 
@@ -1228,7 +1228,7 @@ public class Patterns111 {
 	}
 	/*
 	 
-							    1 
+							        1 
 								1 0 
 								1 0 1 
 								1 0 1 0 
@@ -1253,7 +1253,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-							    1 
+							        1 
 								2 1 
 								3 2 1 
 								4 3 2 1 
@@ -1271,7 +1271,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-							    1 
+							        1 
 								1 2 
 								1 2 3 
 								1 2 3 4 
@@ -1327,7 +1327,7 @@ public class Patterns111 {
 	}
 	//----cap.a(A)-->65
 	/*
-								    A 
+								        A 
 									A B 
 									A B C 
 									A B C D 
@@ -1346,7 +1346,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-									    A 
+									        A 
 										B B 
 										C C C 
 										D D D D 
@@ -1365,7 +1365,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-							    A B C D E 
+							        A B C D E 
 								A B C D 
 								A B C 
 								A B 
@@ -1397,7 +1397,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-											A 
+										    A 
 										   A B 
 										  A B C 
 										 A B C D 
@@ -1419,7 +1419,7 @@ public class Patterns111 {
 		}
 	}
 	/*
-								 A
+							     A
 							    B B
 							   C   C
 							  D     D
