@@ -1,0 +1,2 @@
+# SearchingAlgorithms
+Various searching algorithms
