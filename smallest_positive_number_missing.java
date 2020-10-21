@@ -45,6 +45,33 @@ public class smallest_positive_number_missing
 		}
 	}
 	
+	//using hashset
+	public static void finding2(int arr[])
+	{
+		HashSet<Integer> hs=new HashSet<Integer>();
+		int count=0;
+		//hashset will now have only positive elements
+		for(int i=0;i<arr.length;i++)
+		{
+			if(arr[i]>0)
+			{
+				hs.add(arr[i]);
+			}
+		}
+		for(int i=1;i<=hs.size();i++)
+		{
+			if(!hs.contains(i))
+			{
+				System.out.println(i);
+				count++;
+				break;
+			}
+		}
+		if(count==0)
+		{
+			System.out.println(Collections.max(hs)+1);
+		}
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -58,7 +85,7 @@ public class smallest_positive_number_missing
 		}
 		print(arr);
 		finding1(arr);
-		
+		finding2(arr);
 		
 	}
 
