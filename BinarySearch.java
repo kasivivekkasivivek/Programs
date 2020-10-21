@@ -84,8 +84,6 @@ public class BinarySearch {
 			arr[i]=rr.nextInt(100);
 		}
 		print(arr);
-		//linearsearch(arr);
-		//linearsearch2(arr);
 		BinarySearch(arr);
 		BinarySearch2(arr);
 	}
