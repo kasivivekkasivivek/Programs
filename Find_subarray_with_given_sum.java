@@ -1,7 +1,12 @@
 package matrix;
 import java.util.*;
 
-
+/*
+Input: arr[] = {1, 4, 20, 3, 10, 5}, sum = 33
+Ouptut: Sum found between indexes 2 and 4
+Sum of elements between indices
+2 and 4 is 20 + 3 + 10 = 33
+*/
 public class Find_subarray_with_given_sum {
 	public static Scanner ss=new Scanner(System.in);
 	public static Random rr=new Random();
