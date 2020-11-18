@@ -30,7 +30,8 @@ Case 2: Assume X is greater than A[mid+K]. Then, we move the window to the right
 			-----------A[mid]-----------------------A[mid+K]------X----
 			Move low to mid+1.
 
-Case 3: Assume X is somewhere between A[mid] and A[mid + K]. Then, we have to minimize the difference between X - A[mid] and A[mid+K]-X. So if (A[mid+K]+A[mid])/2 is less than X, we move low to mid+1, otherwise, we move high to mid.
+Case 3: Assume X is somewhere between A[mid] and A[mid + K]. Then, we have to minimize the difference between X - A[mid] and A[mid+K]-X. 
+So if (A[mid+K]+A[mid])/2 is less than X, we move low to mid+1, otherwise, we move high to mid.
 
 			-----------A[mid]---------------X------A[mid+K]-----------
 			Move low to mid+1.
